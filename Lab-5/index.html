@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-3</title>
+    <style>
+        .custom-list {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            gap: 10px;
+        }
+
+        .custom-list li {
+            padding: 10px;
+            margin-bottom: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .custom-list li:hover {
+            background-color: #e0e0e0;
+        }
+
+        .task-link {
+            font-size: 18px;
+            font-weight: bolder;
+            color: #4CAF50;
+            transition: color 0.3s ease;
+            text-underline-offset: 3px;
+        }
+
+        .task-link:hover {
+            color: #E64A19;
+        }
+    </style>
+</head>
+<body>
+<ul class="custom-list">
+    <li><a href="task1/index.php" class="task-link">Завдання 1</a></li>
+    <li><a href="task2/index.php" class="task-link">Завдання 2</a></li>
+    <li><a href="task3/display.php" class="task-link">Завдання 3</a></li>
+</ul>
+</body>
+</html>

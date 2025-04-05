@@ -1,0 +1,32 @@
+.custom-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.custom-list li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-list li:hover {
+    background-color: #e0e0e0;
+}
+
+.task-link {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #4CAF50;
+    transition: color 0.3s ease;
+    text-underline-offset: 3px;
+}
+
+.task-link:hover {
+    color: #E64A19;
+}
